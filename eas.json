@@ -1,0 +1,45 @@
+{
+  "cli": {
+    "version": ">= 18.0.1",
+    "appVersionSource": "local"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_APP_B_URL": "https://rrgbk.tecnotics.co",
+        "EXPO_PUBLIC_PORTAL_URL": "https://terminaldelsur.com",
+        "EXPO_PUBLIC_TERMINAL_FE_SIMBA_TOKEN": "6BC2BF7F-C4DB-43EA-B72F-19968CB46531",
+        "EXPO_PUBLIC_TERMINAL_FE_ID": "69b818aacfc535d207dafca3",
+        "EXPO_PUBLIC_FE_URL": "https://fesimba.terminaldelsur.com",
+        "EXPO_PUBLIC_ENABLE_SOCKETS": "true"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_APP_B_URL": "https://rrgbk.tecnotics.co",
+        "EXPO_PUBLIC_PORTAL_URL": "https://terminaldelsur.com",
+        "EXPO_PUBLIC_TERMINAL_FE_SIMBA_TOKEN": "6BC2BF7F-C4DB-43EA-B72F-19968CB46531",
+        "EXPO_PUBLIC_TERMINAL_FE_ID": "69b818aacfc535d207dafca3",
+        "EXPO_PUBLIC_FE_URL": "https://fesimba.terminaldelsur.com",
+        "EXPO_PUBLIC_ENABLE_SOCKETS": "true"
+      }
+    },
+    "production": {
+      "autoIncrement": true,
+      "env": {
+        "EXPO_PUBLIC_APP_B_URL": "https://rrgbk.tecnotics.co",
+        "EXPO_PUBLIC_PORTAL_URL": "https://terminaldelsur.com",
+        "EXPO_PUBLIC_TERMINAL_FE_SIMBA_TOKEN": "6BC2BF7F-C4DB-43EA-B72F-19968CB46531",
+        "EXPO_PUBLIC_TERMINAL_FE_ID": "69b818aacfc535d207dafca3",
+        "EXPO_PUBLIC_FE_URL": "https://fesimba.terminaldelsur.com",
+        "EXPO_PUBLIC_ENABLE_SOCKETS": "true"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

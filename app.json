@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Terminal del Sur · Baños",
+    "slug": "terminal-banos-movile",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1363ac"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tecnotics.terminal.banos",
+      "buildNumber": "1"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1363ac"
+      },
+      "package": "com.tecnotics.terminal.banos",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
