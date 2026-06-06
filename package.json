@@ -7,7 +7,10 @@
     "android": "npx expo run:android",
     "ios": "npx expo run:ios",
     "web": "npx expo start --web",
-    "eas-build-post-install": "node scripts/eas-post-install.js"
+    "eas-build-post-install": "node scripts/eas-post-install.js",
+    "eas:login": "eas login",
+    "build:preview": "eas build --profile preview --platform android",
+    "build:production": "eas build --profile production --platform android"
   },
   "dependencies": {
     "@expo/vector-icons": "^15.0.3",
@@ -40,6 +43,7 @@
     "@babel/core": "^7.26.0",
     "@types/react": "~19.1.10",
     "babel-preset-expo": "~13.0.0",
+    "eas-cli": "^16.0.0",
     "typescript": "~5.9.2"
   },
   "private": true

@@ -37,7 +37,7 @@ module.exports = {
     extra: {
       ...appJson.expo.extra,
       eas: {
-        projectId: '00000000-0000-0000-0000-000000000000',
+        projectId: 'de673d0a-1ee4-4f0f-bc11-6c9715bca2e6',
       },
       EXPO_PUBLIC_APP_B_URL:
         process.env.EXPO_PUBLIC_APP_B_URL || 'https://rrgbk.tecnotics.co',
