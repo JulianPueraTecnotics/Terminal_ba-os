@@ -27,7 +27,7 @@
         "backgroundColor": "#1363ac"
       },
       "package": "com.tecnotics.terminal.banos",
-      "versionCode": 6
+      "versionCode": 7
     },
     "web": {
       "favicon": "./assets/favicon.png"
