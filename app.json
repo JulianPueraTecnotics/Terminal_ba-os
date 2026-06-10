@@ -4,8 +4,11 @@
     "slug": "terminal-banos-movile",
     "version": "1.0.1",
     "orientation": "default",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/android-icon-foreground.png",
     "userInterfaceStyle": "automatic",
+    "plugins": [
+      "expo-font"
+    ],
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
@@ -24,7 +27,7 @@
         "backgroundColor": "#1363ac"
       },
       "package": "com.tecnotics.terminal.banos",
-      "versionCode": 4
+      "versionCode": 6
     },
     "web": {
       "favicon": "./assets/favicon.png"
